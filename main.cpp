@@ -3,7 +3,7 @@
 int main()
 {
 	SDL_Init(SDL_INIT_VIDEO);
-	SDL_Window* window = SDL_CreateWindow("tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNEFINED, 640, 480, 0);
+	SDL_Window* window = SDL_CreateWindow("tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480, 0);
 
 	SDL_Event event;
 	bool running = true;
